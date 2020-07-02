@@ -9,3 +9,8 @@ print(temp);
 
 local mathFunc = require("mathfunc");
 print("外部接口:"..mathFunc.abs(-666));
+
+require("Device");
+
+local deviceName = Device.GetDeviceName();
+print(deviceName);
