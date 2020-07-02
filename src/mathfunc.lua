@@ -3,7 +3,8 @@
 --- Created by LSC.
 --- DateTime: 2020/7/2 0:34
 ---
---绝对值
+
+---绝对值
 function math_abs(num)
     if num < 0 then
         return -num;
@@ -11,7 +12,7 @@ function math_abs(num)
     return num
 end
 
---开根号
+---开方
 function math_sqrt(num)
     if num ~= 0 then
         return math.sqrt(num);
